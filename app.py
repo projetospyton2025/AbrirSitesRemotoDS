@@ -47,6 +47,10 @@ SITES = [
         'name': 'Geradores | Combinação I',
         'url': 'https://combinacaoumdiadesorte.onrender.com/'
     },
+            {
+        'name': 'Geradores | Baseado em Dígitos',
+        'url': 'https://geradorbaseadoemdigitosdiadesorte.netlify.app/'
+    },
         {
         'name': 'Estatísticas | Análise de Dígitos',
         'url': 'https://resultadosdigitosdiadesorte.onrender.com/'
@@ -55,6 +59,7 @@ SITES = [
         'name': 'Estatísticas | Resumo',
         'url': 'https://resumodiadesorte.onrender.com/'
     },
+    
 ]
 
 @app.route('/')
