@@ -37,16 +37,30 @@ if not IS_CLOUD:
 else:
     BROWSER_NAME = "Navegador Web"
 
+# # Lista de sites externos para abrir
+# SITES = [
+#             {'name': 'Estatísticas | Calculadora Combinações (Dígitos)','url': 'https://combinacaodoisdiadesorte.onrender.com/'},
+#             {'name': 'Geradores | Combinação I','url': 'https://combinacaoumdiadesorte.onrender.com/'},
+#             {'name': 'Estatísticas | Análise de Palpites (Digitos)','url': 'https://analisedospalpitesds.onrender.com/'},
+#             {'name': 'Estratégias | Palpites II','url': 'https://palpitesds.onrender.com/'},
+#             {'name': 'Geradores | Baseado em Dígitos','url': 'https://geradorbaseadoemdigitosdiadesorte.netlify.app/'},
+#             {'name': 'Estatísticas | Análise de Dígitos','url': 'https://resultadosdigitosdiadesorte.onrender.com/'},
+#             {'name': 'Estatísticas | Resumo','url': 'https://resumodiadesorte.onrender.com/'},
+#             {'name': 'Conferidor | Resumo','url': 'https://diadesorteconferidor.onrender.com/'},
+#         ]
+
 # Lista de sites externos para abrir
 SITES = [
             {'name': 'Estatísticas | Calculadora Combinações (Dígitos)','url': 'https://combinacaodoisdiadesorte.onrender.com/'},
-            {'name': 'Geradores | Combinação I','url': 'https://combinacaoumdiadesorte.onrender.com/'},
-            {'name': 'Estatísticas | Análise de Palpites (Digitos)','url': 'https://analisedospalpitesds.onrender.com/'},
-            {'name': 'Estratégias | Palpites II','url': 'https://palpitesds.onrender.com/'},
-            {'name': 'Geradores | Baseado em Dígitos','url': 'https://geradorbaseadoemdigitosdiadesorte.netlify.app/'},
             {'name': 'Estatísticas | Análise de Dígitos','url': 'https://resultadosdigitosdiadesorte.onrender.com/'},
             {'name': 'Estatísticas | Resumo','url': 'https://resumodiadesorte.onrender.com/'},
+            {'name': 'Estatísticas | Análise de Palpites (Digitos)','url': 'https://analisedospalpitesds.onrender.com/'},
+     		{'name': 'Estratégias | Palpites II','url': 'https://palpitesds.onrender.com/'},
+			{'name': 'Geradores | Combinação I','url': 'https://combinacaoumdiadesorte.onrender.com/'},
+		    {'name': 'Geradores | Baseado em Dígitos','url': 'https://geradorbaseadoemdigitosdiadesorte.netlify.app/'},
+			{'name': 'Conferidor | Resumo','url': 'https://diadesorteconferidor.onrender.com/'},
         ]
+
 
 @app.route('/')
 def index():
