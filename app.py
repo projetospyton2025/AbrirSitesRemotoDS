@@ -59,6 +59,8 @@ SITES = [
 			{'name': 'Geradores | Combinação I','url': 'https://combinacaoumdiadesorte.onrender.com/'},
 		    {'name': 'Geradores | Baseado em Dígitos','url': 'https://geradorbaseadoemdigitosdiadesorte.netlify.app/'},
 			{'name': 'Conferidor | Resumo','url': 'https://diadesorteconferidor.onrender.com/'},
+            {'name': 'Conferidor | Automático 1','url': 'https://confauto1diadesorte.netlify.app/'},
+            {'name': 'Conferidor | Automático 1+','url': 'https://confautomaisque1diadesorte.netlify.app/'},
         ]
 
 
