@@ -61,6 +61,7 @@ SITES = [
 			{'name': 'Conferidor | Resumo','url': 'https://diadesorteconferidor.onrender.com/'},
             {'name': 'Conferidor | Automático 1','url': 'https://confauto1diadesorte.netlify.app/'},
             {'name': 'Conferidor | Automático 1+','url': 'https://confautomaisque1diadesorte.netlify.app/'},
+             {'name': 'Geradores | Gerador Final','url': 'https://geradorfinaldiadesorte.netlify.app/'},
         ]
 
 
